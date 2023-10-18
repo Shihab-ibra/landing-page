@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width:75%;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.full-bleed {
+    margin: 0 calc(50% - 50vw);
+    padding: 0 calc(50vw - 50%);
+}
+
+nav,
+.section-1,
+.section-2,
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav,
+.section-1,
+.footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav li {
+    padding: 2px;
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-block: 70px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-top: 0;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup,
+.signup-2 {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882F6;
+    border-radius: 10px;
+}
+
+.section-2 {
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 10px;
+    margin-block: 50px;
+    color: #1F2937;
+}
+
+blockquote {
+    align-items: start;
+    text-align: center;
+}
+
+.author {
+    font-weight: 700;
+    margin-left: 34%;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    width: 440px;
+    height: 300px;
+    display: block;
+}
+
+.content-box {
+    border: 4px solid #3882F6;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.section-2 p {
+    font-size: 18px;
+}
+
+.section-4 {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 90px;
+    color: white;
+    margin: 50px 0;
+}
+
+.signup-2 {
+    border: 3px solid white;
+}
+
+.footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 15px;
+}
